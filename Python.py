@@ -1,3 +1,11 @@
+import navi
+
+screen_width = 480
+screen_height = 640
+screen = .navi.display.set_mode((screen_width, screen_height))
+
+navi.display.set_caption("Navigation")
+
 navi = {}
 while True:
     print("===즐겨찾기 등록===")
